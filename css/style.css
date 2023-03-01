@@ -33,7 +33,19 @@ h1{
   border:10px solid;
   color: white;
   }
-
+  
+ h1:hover{
+  background-color: white;
+  color: purple;
+  }
+td:hover{
+  background-color: white;
+  color: purple;
+  }
+  th:hover{
+  background-color: white;
+  color: purple;
+  }
 #planets{
   margin:auto;
   }
@@ -46,4 +58,5 @@ body{
 img{
   width: 240px;
   height: 210px;
+  border-radius: 25%;
   }
