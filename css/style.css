@@ -1,21 +1,20 @@
 
 h1, td, th{
   text-align: center;
-   font-weight: bold;
-  
+	font-weight: bold;
  }
 td, th {
 	border: 3px solid;
   background-color: black;
   padding: 15px;
   font-family: 'Helvetica';
-    color:white;
+	color:white;
   }
- th {
-    font-size:30px;
+th {
+	font-size:30px;
   }
- td {
-    font-size:20px;
+td {
+	font-size:20px;
   }
 h1{
   font-size:50px;
@@ -23,18 +22,15 @@ h1{
    font-weight: bold;
    text-decoration:underline;
    background-color:white;
-    color:black;
-
+	color:black;
   }
-
 .facts{
   text-align: center;
   font-size:25px; 
   border:10px solid;
   color: white;
   }
-  
- h1:hover{
+h1:hover{
   background-color: white;
   color: purple;
   }
@@ -42,21 +38,19 @@ td:hover{
   background-color: white;
   color: purple;
   }
-  th:hover{
+th:hover{
   background-color: white;
   color: purple;
   }
 #planets{
-  margin:auto;
+	margin:auto;
   }
-
 body{
   background-size: cover;
   background-image: url("../images/black.png");
-   
   }
 img{
-  width: 240px;
+	width: 240px;
   height: 210px;
   border-radius: 25%;
   }
