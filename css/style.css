@@ -1,28 +1,36 @@
 
 h1, td, th{
   text-align: center;
-  font-family: 'Shantell Sans', cursive;
-  color:white;
+   font-weight: bold;
   
  }
 td, th {
-		border: 2px solid;
+	border: 3px solid;
   background-color: black;
-  padding: 10px;
+  padding: 15px;
+  font-family: 'Helvetica';
+    color:white;
+  }
+ th {
+    font-size:30px;
+  }
+ td {
+    font-size:20px;
   }
 h1{
-  font-size:40px;
-   font-family: 'Time New Roman', cursive;
-  }
+  font-size:50px;
+   font-family: 'Times New Roman';
+   font-weight: bold;
+   text-decoration:underline;
+   background-color:white;
+    color:black;
 
-.planet_names{
-  border: 1px solid;
   }
 
 .facts{
   text-align: center;
   font-size:25px; 
-  border:3px solid;
+  border:10px solid;
   color: white;
   }
 
@@ -31,10 +39,11 @@ h1{
   }
 
 body{
-  background-color: black;
   background-size: cover;
+  background-image: url("../images/black.png");
+   
   }
 img{
-  width: 250px;
-  height: 220px;
+  width: 240px;
+  height: 210px;
   }
